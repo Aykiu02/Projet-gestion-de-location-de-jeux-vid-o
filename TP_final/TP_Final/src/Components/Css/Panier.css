@@ -1,0 +1,172 @@
+/* Style pour l'en-tête */
+h1 {
+    text-align: center;
+    
+  }
+  
+  /* Style pour la barre de recherche et les options de tri */
+  .search-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  /* Style pour les boutons de tri */
+  label {
+    margin-left: 10px;
+  }
+  
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Style pour chaque élément de la liste */
+  p {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  
+ 
+  
+.liberer-container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden; /* Masque le dépassement de contenu du bouton */
+}
+
+
+
+
+ 
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    color: rgb(123, 0, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
+  
+  /* Style pour l'en-tête */
+  .header{
+    /* background-color: #ff0000; Rouge */
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Style pour la barre de recherche */
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style pour chaque élément de la liste */
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color:#ffcc01c3;
+  }
+
+  li:hover{
+    scale: 120%;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+    margin: -20px -40px -40px -40px;
+  }
+  
+  /* Style pour le bouton Libérer */
+  button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style pour le bouton Libérer au survol */
+  
+  .fontOfCards{
+    background-color: rgb(130, 138, 115);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    justify-content: space-between;
+    
+    padding-top: -20px;
+  }
+  
+  /* .fontOfCards>img{
+    
+  } */
+  
+  .fontOfAllCards{
+    padding-top: 25px;
+    background-color: #45a04945;
+    border-radius: 15px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-left: 3%;
+    width: 94%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+  }
+  
+
+  .fontOfAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+ 
+  p {
+    text-align: center;
+    margin: 10px;
+    flex: 0 0 18%; 
+  }
+
+  a{
+    text-decoration: none;
+    color: #ff0000;
+  }
+
+  a:hover{
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
